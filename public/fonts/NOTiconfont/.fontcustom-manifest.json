@@ -1,0 +1,50 @@
+{
+  "checksum": {
+    "previous": "022d806e63344e92c588c30bf9851fcf78803086044ae16351bf03590d5a55db",
+    "current": "022d806e63344e92c588c30bf9851fcf78803086044ae16351bf03590d5a55db"
+  },
+  "fonts": [
+    "./NOT.ttf",
+    "./NOT.svg",
+    "./NOT.woff",
+    "./NOT.eot"
+  ],
+  "glyphs": {
+    "dummy": {
+      "codepoint": 61696,
+      "source": "src/dummy.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "NOT",
+    "force": false,
+    "input": {
+      "templates": "src/",
+      "vectors": "src/"
+    },
+    "no_hash": true,
+    "output": {
+      "css": ".",
+      "fonts": ".",
+      "preview": "."
+    },
+    "preprocessor_path": null,
+    "quiet": true,
+    "templates": [
+      "preview",
+      "css"
+    ]
+  },
+  "templates": [
+    "./NOT-preview.html",
+    "./NOT.css"
+  ]
+}
